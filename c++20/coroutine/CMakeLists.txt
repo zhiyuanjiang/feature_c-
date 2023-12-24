@@ -1,0 +1,5 @@
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20 -pipe -fPIC -g")
+add_executable(c20_co_test c20_co_test.cpp)
+add_executable(c20_co_counter c20_co_counter.cpp)
+add_executable(c20_co_hello c20_co_hello.cpp)
+add_executable(c20_co_fibo c20_co_fibo.cpp)
