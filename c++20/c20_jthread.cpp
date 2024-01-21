@@ -1,6 +1,6 @@
 /*
 * jthread用起来和thread差不多，jthread主要新增了两个功能
-* 1. jthread对象被析构，会主动调用joing，相比thread更加安全，如果thread忘记join或者detach，就会core dump。
+* 1. jthread对象被析构，会主动调用join，相比thread更加安全，如果thread忘记join或者detach，就会core dump。
 * 2. jthread支持外部请求终止，利用stop_token，stop_source。
 */
 
